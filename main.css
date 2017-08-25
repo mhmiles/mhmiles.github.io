@@ -18,5 +18,4 @@ body {
   display: flex;
   flex-direction: column;
   color: black;
-  min-height: 100vh;
 }
