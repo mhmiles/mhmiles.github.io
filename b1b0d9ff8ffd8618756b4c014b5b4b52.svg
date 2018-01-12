@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>sync</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 L60,0 L60,60 L23.9765625,120 L0,120 L0,0 Z M95.9462891,0 L120,0 L120,120 L60,120 L60,60 L95.9462891,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sync">
+            <polygon id="Triangle-2" fill="#000000" transform="translate(64.500000, 25.500000) rotate(90.000000) translate(-64.500000, -25.500000) " points="64.5 17 78 34 51 34"></polygon>
+            <polygon id="Triangle-2" fill="#000000" transform="translate(54.500000, 94.500000) scale(-1, 1) rotate(90.000000) translate(-54.500000, -94.500000) " points="54.5 86 68 103 41 103"></polygon>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Combined-Shape"></g>
+            <circle id="Oval-3" stroke="#000000" stroke-width="10" mask="url(#mask-2)" cx="60" cy="60" r="35"></circle>
+        </g>
+    </g>
+</svg>
