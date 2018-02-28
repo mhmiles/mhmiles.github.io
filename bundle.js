@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "0a4d720bb4cba2fe86c9"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "aab057cffbb2e3230008"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -45489,7 +45489,7 @@ exports.default = function () {
     _react2.default.createElement(
       'div',
       { className: _Contact2.default.description },
-      'Hollingsware is the product of:'
+      'Hollingsware is a creation of:'
     ),
     _react2.default.createElement(
       'div',
