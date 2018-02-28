@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "4daaec19e6994f8cbe5a"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "3b79fa195f0f2d867c5c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -11614,7 +11614,7 @@ exports = module.exports = __webpack_require__(8)(undefined);
 
 
 // module
-exports.push([module.i, ".app-components-PixelLine__line--3BQjZ {\n  z-index: 100;\n  height: 1px;\n  position: absolute;\n  width: 100%;\n  background-color: currentColor;\n  opacity: 0.5;\n}\n", ""]);
+exports.push([module.i, ".app-components-PixelLine__line--3BQjZ {\n  z-index: 100;\n  height: 1px;\n  position: absolute;\n  width: 100%;\n  background-color: currentColor;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -11999,14 +11999,13 @@ exports = module.exports = __webpack_require__(8)(undefined);
 
 
 // module
-exports.push([module.i, ".app-components-Footer__footer--1RDhq {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  padding: 20px;\n  text-align: center;\n  height: auto;\n  position: relative;\n}\n\n.app-components-Footer__appleTrademark--19XSp {\n  font-size: 10px;\n  margin: 0px 40px;\n  max-width: 480px;\n}\n\n.app-components-Footer__bottomLinks--3Zrg1 {\n  font-size: 18px;\n  font-weight: 200;\n  margin-bottom: 20px;\n}\n\n.app-components-Footer__bottomLinks--3Zrg1 a {\n  text-decoration: none;\n  color: inherit;\n  margin: 0 10px;\n}\n\n.app-components-Footer__bottomLinks--3Zrg1 a:hover {\n  color: #555;\n}\n\n.app-components-Footer__bottomLinks--3Zrg1 * {\n  transition: color 300ms ease-in-out;\n}\n\n.app-components-Footer__bullet--2NbWu:hover {\n  color: white;\n}\n", ""]);
+exports.push([module.i, ".app-components-Footer__footer--1RDhq {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  padding: 20px;\n  text-align: center;\n  height: auto;\n  position: relative;\n}\n\n.app-components-Footer__appleTrademark--19XSp {\n  font-size: 10px;\n  margin: 0px 40px;\n  max-width: 480px;\n}\n\n.app-components-Footer__bottomLinks--3Zrg1 {\n  font-size: 21px;\n  margin-bottom: 20px;\n}\n\n.app-components-Footer__bottomLinks--3Zrg1 a {\n  text-decoration: none;\n  color: inherit;\n  margin: 0 10px;\n  opacity: 0.8;\n}\n\n.app-components-Footer__bottomLinks--3Zrg1 a:hover {\n  opacity: 1;\n}\n\n.app-components-Footer__bottomLinks--3Zrg1 * {\n  transition: opacity 300ms ease-in-out;\n}\n", ""]);
 
 // exports
 exports.locals = {
 	"footer": "app-components-Footer__footer--1RDhq",
 	"appleTrademark": "app-components-Footer__appleTrademark--19XSp",
-	"bottomLinks": "app-components-Footer__bottomLinks--3Zrg1",
-	"bullet": "app-components-Footer__bullet--2NbWu"
+	"bottomLinks": "app-components-Footer__bottomLinks--3Zrg1"
 };
 
 /***/ }),
@@ -12822,7 +12821,7 @@ exports = module.exports = __webpack_require__(8)(undefined);
 
 
 // module
-exports.push([module.i, ".app-components-NavBar__navbarHeader--2Y8qv {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  -webkit-user-select: none;\n  user-select: none;\n  transition: color 1s ease-in-out;\n}\n\n.app-components-NavBar__navbar--kU_tQ ul {\n  -webkit-margin-before: 0;\n  -webkit-margin-after: 0;\n}\n\n.app-components-NavBar__navbarStatic--IexHS {\n  width: 100%;\n  display: flex;\n  flex-direction: row;\n  align-items: flex-end;\n  padding-left: 5px;\n  flex-shrink: 1;\n  justify-content: space-between;\n  width: 100%;\n  padding: 0 10px;\n  box-sizing: border-box;\n}\n\n.app-components-NavBar__logoLink--LYIcJ {\n  margin-right: 30px;\n}\n\n.app-components-NavBar__navbar--kU_tQ ul {\n  list-style-type: none;\n}\n\n.app-components-NavBar__navItem--DIguh {\n  text-decoration: none;\n  color: inherit;\n  font-size: 24px;\n  line-height: 20px;\n  font-weight: 200;\n  height: 40px;\n  position: relative;\n}\n\n.app-components-NavBar__navCollapse--2IsGS .app-components-NavBar__navItem--DIguh {\n  z-index: 10;\n}\n\n.app-components-NavBar__navCollapse--2IsGS .app-components-NavBar__navItem--DIguh:hover {\n  background-color: rgba(0,0,0,0.05);\n}\n\n.app-components-NavBar__navItem--DIguh:visited {\n  color: inherit;\n}\n\n.app-components-NavBar__collapseContainer--2bc5b {\n  width: 100%;\n  overflow: hidden;\n  transition: height 500ms ease-in-out;\n  z-index: -10;\n}\n\n.app-components-NavBar__navOpenMore--3iyse {\n  height: 140px;\n}\n\n.app-components-NavBar__navClosed--1xPlF {\n  height: 0;\n  overflow: hidden;\n}\n\n.app-components-NavBar__appPickerClosed--146fY {\n  height: 0;\n  overflow: hidden;\n}\n\n.app-components-NavBar__appPickerOpen--giyOF {\n  height: 140px;\n}\n\n.app-components-NavBar__appPicker--33a-x {\n  width: 100%;\n  overflow: hidden;\n  transition: height 500ms ease-in-out;\n}\n\n.app-components-NavBar__wide--2hMpA {\n  margin-bottom: 9px;\n}\n\n.app-components-NavBar__linkText--2EvQY {\n  padding-top: 10px;\n  padding-left: 10px;\n}\n\n@media (max-width:576px) {\n  .app-components-NavBar__navItem--DIguh {\n    display: block;\n    margin: 0;\n  }\n\n  .app-components-NavBar__wide--2hMpA {\n    display: none;\n  }\n\n  .app-components-NavBar__navOpenMore--3iyse {\n    height: 221px;\n  }\n\n  .app-components-NavBar__navOpen--2iu6j {\n    height: 80px;\n  }\n}\n\n@media (min-width: 577px) {\n  .app-components-NavBar__thin--37f5l {\n    display: none;\n  }\n\n  .app-components-NavBar__navClosed--1xPlF {\n    height: auto;\n  }\n\n  .app-components-NavBar__navItem--DIguh {\n    margin-left: 20px;\n  }\n}\n", ""]);
+exports.push([module.i, ".app-components-NavBar__navbarHeader--2Y8qv {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  -webkit-user-select: none;\n  user-select: none;\n  transition: color 1s ease-in-out;\n}\n\n.app-components-NavBar__navbar--kU_tQ ul {\n  -webkit-margin-before: 0;\n  -webkit-margin-after: 0;\n}\n\n.app-components-NavBar__navbarStatic--IexHS {\n  width: 100%;\n  display: flex;\n  flex-direction: row;\n  align-items: flex-end;\n  padding-left: 5px;\n  flex-shrink: 1;\n  justify-content: space-between;\n  width: 100%;\n  padding: 0 10px;\n  box-sizing: border-box;\n}\n\n.app-components-NavBar__logoLink--LYIcJ {\n  margin-right: 30px;\n}\n\n.app-components-NavBar__navbar--kU_tQ ul {\n  list-style-type: none;\n}\n\n.app-components-NavBar__navItem--DIguh {\n  text-decoration: none;\n  color: inherit;\n  font-size: 24px;\n  line-height: 20px;\n  font-weight: 200;\n  height: 40px;\n  position: relative;\n}\n\n.app-components-NavBar__navCollapse--2IsGS .app-components-NavBar__navItem--DIguh {\n  z-index: 10;\n}\n\n.app-components-NavBar__navCollapse--2IsGS .app-components-NavBar__navItem--DIguh:hover {\n  background-color: rgba(0,0,0,0.05);\n}\n\n.app-components-NavBar__navItem--DIguh:visited {\n  color: inherit;\n}\n\n.app-components-NavBar__collapseContainer--2bc5b {\n  width: 100%;\n  overflow: hidden;\n  transition: height 500ms ease-in-out;\n  z-index: -10;\n}\n\n.app-components-NavBar__navOpenMore--3iyse {\n  height: 130px;\n}\n\n.app-components-NavBar__navClosed--1xPlF {\n  height: 0;\n  overflow: hidden;\n}\n\n.app-components-NavBar__appPickerClosed--146fY {\n  height: 0;\n  overflow: hidden;\n}\n\n.app-components-NavBar__appPickerOpen--giyOF {\n  height: 130px;\n}\n\n.app-components-NavBar__appPicker--33a-x {\n  width: 100%;\n  overflow: hidden;\n  transition: height 500ms ease-in-out;\n}\n\n.app-components-NavBar__wide--2hMpA {\n  margin-bottom: 9px;\n}\n\n.app-components-NavBar__linkText--2EvQY {\n  padding-top: 10px;\n  padding-left: 10px;\n}\n\n@media (max-width:576px) {\n  .app-components-NavBar__navItem--DIguh {\n    display: block;\n    margin: 0;\n  }\n\n  .app-components-NavBar__wide--2hMpA {\n    display: none;\n  }\n\n  .app-components-NavBar__navOpenMore--3iyse {\n    height: 210px;\n  }\n\n  .app-components-NavBar__navOpen--2iu6j {\n    height: 80px;\n  }\n}\n\n@media (min-width: 577px) {\n  .app-components-NavBar__thin--37f5l {\n    display: none;\n  }\n\n  .app-components-NavBar__navClosed--1xPlF {\n    height: auto;\n  }\n\n  .app-components-NavBar__navItem--DIguh {\n    margin-left: 20px;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -12853,7 +12852,7 @@ exports = module.exports = __webpack_require__(8)(undefined);
 
 
 // module
-exports.push([module.i, ".app-components-NavButton__navButton--Fzy80 {\n  width: 40px;\n  border-radius: 4px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid red;\n  border-color: inherit;\n  flex-shrink: 0;\n  height: 30px;\n  align-self: center;\n}\n\n.app-components-NavButton__barContainer--1CLkQ {\n  position: relative;\n}\n\n.app-components-NavButton__bar--uGdqc {\n  height: 2px;\n  border-radius: 1.5px;\n  width: 20px;\n  box-sizing: border-box;\n  border: 2px solid;\n  border-color: inherit;\n}\n\n.app-components-NavButton__navButton--Fzy80:hover {\n  background-color: rgba(0,0,0,0.05)\n}\n\n.app-components-NavButton__bar--uGdqc:not(:last-child) {\n  margin-bottom: 4px;\n}\n\n@media (min-width:576px) {\n  .app-components-NavButton__navButton--Fzy80 {\n    display: none;\n  }\n}\n", ""]);
+exports.push([module.i, ".app-components-NavButton__navButton--Fzy80 {\n  width: 40px;\n  border-radius: 4px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid red;\n  border-color: inherit;\n  flex-shrink: 0;\n  height: 30px;\n  align-self: center;\n  opacity: 0.5;\n}\n\n.app-components-NavButton__barContainer--1CLkQ {\n  position: relative;\n}\n\n.app-components-NavButton__bar--uGdqc {\n  height: 2px;\n  border-radius: 1.5px;\n  width: 20px;\n  box-sizing: border-box;\n  border: 2px solid;\n  border-color: inherit;\n}\n\n.app-components-NavButton__navButton--Fzy80:hover {\n  background-color: rgba(0,0,0,0.1)\n}\n\n.app-components-NavButton__bar--uGdqc:not(:last-child) {\n  margin-bottom: 4px;\n}\n\n@media (min-width:576px) {\n  .app-components-NavButton__navButton--Fzy80 {\n    display: none;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13116,7 +13115,7 @@ exports = module.exports = __webpack_require__(8)(undefined);
 
 
 // module
-exports.push([module.i, ".app-components-ProjectCell__projectCell--2otwH {\n  transition: background-color 200ms ease-in-out;\n  display: flex;\n  flex-shrink: 0;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  width: 140px;\n  font-size: 16px;\n}\n\n.app-components-ProjectCell__projectCell--2otwH:hover {\n  background-color: rgba(0, 0, 0, 0.75);\n}\n\n.app-components-ProjectCell__projectCell--2otwH a {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-decoration: none;\n  color: inherit;\n}\n\n.app-components-ProjectCell__projectImage--3UddZ {\n  width: 80px;\n  margin-bottom: 5px;\n}\n\n.app-components-ProjectCell__projectLink--CvOeG {\n  display: flex;\n}\n", ""]);
+exports.push([module.i, ".app-components-ProjectCell__projectCell--2otwH {\n  transition: background-color 200ms ease-in-out;\n  display: flex;\n  flex-shrink: 0;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  width: 130px;\n  font-size: 16px;\n}\n\n.app-components-ProjectCell__projectCell--2otwH:hover {\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.app-components-ProjectCell__projectCell--2otwH a {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-decoration: none;\n  color: inherit;\n}\n\n.app-components-ProjectCell__projectImage--3UddZ {\n  width: 80px;\n  margin-bottom: 5px;\n}\n\n.app-components-ProjectCell__projectLink--CvOeG {\n  display: flex;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -13134,7 +13133,7 @@ exports = module.exports = __webpack_require__(8)(undefined);
 
 
 // module
-exports.push([module.i, "\n.app-components-ProjectPicker__projectPicker--x4jVt {\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.72) 15%, rgba(0,0,0,0.72) 85%, rgba(0,0,0,0.8) 100%);\n  display: flex;\n  flex-wrap: nowrap;\n  overflow-x: auto;\n  overflow-y: hidden;\n  box-sizing: content-box;\n  -webkit-overflow-scrolling: touch;\n  margin: 0;\n  -webkit-user-select: none;\n  user-select: none;\n  padding: 0 10px;\n  color: #DDD;\n  height: 140px;\n  box-sizing: border-box;\n}\n\n.app-components-ProjectPicker__projectPicker--x4jVt li:not(:first-child) {\n  margin-left: 10px;\n}\n\nol {\n  list-style-type: none;\n  padding-left: 0;\n}\n", ""]);
+exports.push([module.i, "\n.app-components-ProjectPicker__projectPicker--x4jVt {\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.72) 15%, rgba(0,0,0,0.72) 85%, rgba(0,0,0,0.8) 100%);\n  display: flex;\n  flex-wrap: nowrap;\n  overflow-x: auto;\n  overflow-y: hidden;\n  box-sizing: content-box;\n  -webkit-overflow-scrolling: touch;\n  margin: 0;\n  -webkit-user-select: none;\n  user-select: none;\n  padding: 0;\n  color: #DDD;\n  height: 130px;\n  box-sizing: border-box;\n}\n\n.app-components-ProjectPicker__projectPicker--x4jVt li:not(:first-child) {\n  margin-left: 10px;\n}\n\nol {\n  list-style-type: none;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -26822,7 +26821,20 @@ var appNames = ["castsync", "mastercontrol", "mastercaster", "quicktwitch", "pod
           )
         )
       ),
-      _react2.default.createElement(_Footer2.default, null)
+      _react2.default.createElement(
+        _reactRouterDom.Switch,
+        null,
+        _react2.default.createElement(
+          _reactRouterDom.Route,
+          { exact: true, path: '/(apps)?' },
+          _react2.default.createElement(_Footer2.default, { style: { color: "rgba(0,0,0,0.3)" } })
+        ),
+        _react2.default.createElement(
+          _reactRouterDom.Route,
+          null,
+          _react2.default.createElement(_Footer2.default, null)
+        )
+      )
     )
   )
 ), document.body.appendChild(document.createElement('div')));
@@ -44558,7 +44570,7 @@ var QuickTwitch = function (_React$Component) {
                 _react2.default.createElement(
                   'h1',
                   null,
-                  'Quick Twitch'
+                  'QuickTwitch'
                 ),
                 _react2.default.createElement(
                   'h2',
@@ -44902,30 +44914,33 @@ var _PixelLine2 = _interopRequireDefault(_PixelLine);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = function (_ref) {
-  var basePath = _ref.basePath;
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
-  var appsPath = basePath !== undefined ? basePath + "/apps" : "apps";
+exports.default = function (_ref) {
+  var style = _ref.style;
+
+  var pathComponents = location.pathname.split("/").filter(function (val) {
+    return val;
+  });
+  var isAppPanelVisible = pathComponents.slice(-1)[0] === "apps";
+
+  var appsLinkPath = isAppPanelVisible ? [""].concat(_toConsumableArray(pathComponents)).join("/") : [""].concat(_toConsumableArray(pathComponents), ["apps"]).join("/");
 
   return _react2.default.createElement(
     'div',
-    { className: _Footer2.default.footer },
+    { className: _Footer2.default.footer, style: style },
     _react2.default.createElement(_PixelLine2.default, { style: { top: 0 } }),
     _react2.default.createElement(
       'div',
       { className: _Footer2.default.bottomLinks },
-      _react2.default.createElement(_reactRouterDom.Route, { render: function render(_ref2) {
-          var location = _ref2.location;
-
-          return _react2.default.createElement(
-            _reactRouterDom.Link,
-            { to: location.pathname + "/apps", onClick: scrollToTop },
-            'Apps'
-          );
-        } }),
+      _react2.default.createElement(
+        _reactRouterDom.Link,
+        { to: appsLinkPath, onClick: scrollToTop },
+        'Apps'
+      ),
       _react2.default.createElement(
         'span',
-        { className: _Footer2.default.bullet },
+        null,
         '\u2022'
       ),
       _react2.default.createElement(
@@ -44935,7 +44950,7 @@ exports.default = function (_ref) {
       ),
       _react2.default.createElement(
         'span',
-        { className: _Footer2.default.bullet },
+        null,
         '\u2022'
       ),
       _react2.default.createElement(
