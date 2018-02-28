@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "aab057cffbb2e3230008"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "4f7d0652f2dfdbadb373"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -11765,7 +11765,7 @@ exports = module.exports = __webpack_require__(8)(undefined);
 
 
 // module
-exports.push([module.i, ".app-components-AppFeature__feature--2ayu0 {\n  text-align: center;\n  color: #222;\n  display: flex;\n  flex-direction: column;\n  margin: 0 40px 40px;\n  align-items: center;\n  flex-shrink: 0;\n  flex-grow: 1;\n}\n\n.app-components-AppFeature__title--3kzAe {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n\n.app-components-AppFeature__titleImage--2CCSJ {\n  width: 30px;\n  opacity: 0.8;\n  margin-right: 15px;\n}\n\n.app-components-AppFeature__titleText--3qAyz {\n  font-weight: 200;\n  font-size: 36px;\n}\n\n@media (min-width: 576px) {\n  .app-components-AppFeature__titleText--3qAyz {\n    font-size: 50px;\n  }\n\n  .app-components-AppFeature__titleImage--2CCSJ {\n    width: 42px;\n  }\n}\n\n.app-components-AppFeature__details--1pSik {\n  margin-top: 12px;\n  text-align: center;\n}\n\n.app-components-AppFeature__text--niIPN {\n  font-size: 24px;\n  opacity: 0.8;\n}\n\n.app-components-AppFeature__text--niIPN:visited {\n  color: inherit;\n}\n\n@media (min-width: 1280px) {\n  .app-components-AppFeature__feature--2ayu0 {\n    flex-basis: 25%;\n  }\n}\n", ""]);
+exports.push([module.i, ".app-components-AppFeature__feature--2ayu0 {\n  text-align: center;\n  color: #222;\n  display: flex;\n  flex-direction: column;\n  margin: 0 10px 40px;\n  align-items: center;\n  flex-shrink: 0;\n  flex-grow: 1;\n}\n\n.app-components-AppFeature__title--3kzAe {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n\n.app-components-AppFeature__titleImage--2CCSJ {\n  width: 30px;\n  opacity: 0.8;\n  margin-right: 15px;\n}\n\n.app-components-AppFeature__titleText--3qAyz {\n  font-weight: 200;\n  font-size: 36px;\n}\n\n@media (min-width: 576px) {\n  .app-components-AppFeature__titleText--3qAyz {\n    font-size: 50px;\n  }\n\n  .app-components-AppFeature__titleImage--2CCSJ {\n    width: 42px;\n  }\n\n  .app-components-AppFeature__feature--2ayu0 {\n    margin: 0 40px 40px;\n  }\n}\n\n.app-components-AppFeature__details--1pSik {\n  margin-top: 12px;\n  text-align: center;\n}\n\n.app-components-AppFeature__text--niIPN {\n  font-size: 24px;\n  opacity: 0.8;\n}\n\n.app-components-AppFeature__text--niIPN:visited {\n  color: inherit;\n}\n\n@media (min-width: 1280px) {\n  .app-components-AppFeature__feature--2ayu0 {\n    flex-basis: 25%;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
