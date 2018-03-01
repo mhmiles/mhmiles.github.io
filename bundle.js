@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "3b79fa195f0f2d867c5c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "67e5872ee7d5d6234bc0"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -12799,7 +12799,7 @@ exports = module.exports = __webpack_require__(8)(undefined);
 
 
 // module
-exports.push([module.i, ".app-components-Support__support--27zU3 {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  padding: 20px 20px 0;\n  text-align: center;\n  position: relative;\n}\n\n.app-components-Support__title--26GWu {\n  font-size: 28px;\n  font-weight: 200;\n  margin: 0;\n}\n\n.app-components-Support__help--1R8pU {\n  margin-top: 10px;\n  font-size: 18px;\n  font-weight: 300;\n}\n\n.app-components-Support__phone--3GIrH {\n  width: 100%;\n  padding: 20px 0;\n}\n\n.app-components-Support__phoneContainer--7cSJ9 {\n  max-width: 300px;\n}\n\n.app-components-Support__contact--3_1w9 {\n  margin-top: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n}\n\n.app-components-Support__contactItem--3bDkx {\n  width: 120px;\n}\n", ""]);
+exports.push([module.i, ".app-components-Support__support--27zU3 {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  padding: 20px 20px 0;\n  text-align: center;\n  position: relative;\n  color: #333;\n}\n\n.app-components-Support__title--26GWu {\n  font-size: 28px;\n  font-weight: 300;\n  margin: 0;\n}\n\n.app-components-Support__help--1R8pU {\n  margin-top: 10px;\n  font-size: 18px;\n}\n\n.app-components-Support__phone--3GIrH {\n  width: 100%;\n  padding: 20px 0;\n}\n\n.app-components-Support__phoneContainer--7cSJ9 {\n  max-width: 300px;\n}\n\n.app-components-Support__contact--3_1w9 {\n  margin-top: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n}\n\n.app-components-Support__contactItem--3bDkx {\n  width: 120px;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -26743,7 +26743,7 @@ var appNames = ["castsync", "mastercontrol", "mastercaster", "quicktwitch", "pod
         ),
         _react2.default.createElement(
           _reactRouterDom.Route,
-          { path: '/contact' },
+          { exact: true, path: '/contact/(apps)?' },
           _react2.default.createElement(
             'div',
             null,
@@ -26758,12 +26758,12 @@ var appNames = ["castsync", "mastercontrol", "mastercaster", "quicktwitch", "pod
         ),
         _react2.default.createElement(
           _reactRouterDom.Route,
-          { path: '/support' },
+          { exact: true, path: '/support/(apps)?' },
           _react2.default.createElement(
             'div',
             null,
             _react2.default.createElement(_bodyStyle2.default, { style: {
-                backgroundColor: "#77FFAA",
+                backgroundColor: "#AAFFCC",
                 color: "rgba(0,0,0,0.3)",
                 fill: "rgba(0,0,0,0.3)",
                 borderColor: "rgba(0,0,0,0.3)"
@@ -26771,9 +26771,8 @@ var appNames = ["castsync", "mastercontrol", "mastercaster", "quicktwitch", "pod
             _react2.default.createElement(_Support2.default, null)
           )
         ),
-        _react2.default.createElement(_reactRouterDom.Route, { path: '/apps/:id(' + appNames.join("|") + ')', render: function render(_ref) {
-            var location = _ref.location,
-                match = _ref.match;
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/apps/:id(' + appNames.join("|") + ')/(apps)?', render: function render(_ref) {
+            var match = _ref.match;
 
             var projectName = match.params.id.toLowerCase();
             var project = _projects2.default[projectName];
@@ -26797,12 +26796,11 @@ var appNames = ["castsync", "mastercontrol", "mastercaster", "quicktwitch", "pod
               _react2.default.createElement(
                 _reactRouterDom.Switch,
                 null,
-                _react2.default.createElement(_reactRouterDom.Route, { location: location, path: '/apps/castsync', component: _CastSync2.default }),
-                _react2.default.createElement(_reactRouterDom.Route, { location: location, path: '/apps/mastercontrol', component: _MasterControl2.default }),
-                _react2.default.createElement(_reactRouterDom.Route, { location: location, path: '/apps/mastercaster', component: _MasterCaster2.default }),
-                _react2.default.createElement(_reactRouterDom.Route, { location: location, path: '/apps/quicktwitch', component: _QuickTwitch2.default }),
-                _react2.default.createElement(_reactRouterDom.Route, { location: location, path: '/apps/pod2watch', component: _Pod2Watch2.default }),
-                _react2.default.createElement(_reactRouterDom.Route, { location: location, component: _NotFound2.default })
+                _react2.default.createElement(_reactRouterDom.Route, { path: '/apps/castsync', component: _CastSync2.default }),
+                _react2.default.createElement(_reactRouterDom.Route, { path: '/apps/mastercontrol', component: _MasterControl2.default }),
+                _react2.default.createElement(_reactRouterDom.Route, { path: '/apps/mastercaster', component: _MasterCaster2.default }),
+                _react2.default.createElement(_reactRouterDom.Route, { path: '/apps/quicktwitch', component: _QuickTwitch2.default }),
+                _react2.default.createElement(_reactRouterDom.Route, { path: '/apps/pod2watch', component: _Pod2Watch2.default })
               )
             );
           } }),
