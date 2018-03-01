@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "148ddc9315012775b66b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "3ad2909451ebd4c1f621"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -26771,7 +26771,7 @@ var appNames = ["castsync", "mastercontrol", "mastercaster", "quicktwitch", "pod
             _react2.default.createElement(_Support2.default, null)
           )
         ),
-        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/apps/:id(' + appNames.join("|") + ')/(apps)?', render: function render(_ref) {
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/apps/:id(' + appNames.join("|") + ')/(apps|faq)?', render: function render(_ref) {
             var match = _ref.match;
 
             var projectName = match.params.id.toLowerCase();
