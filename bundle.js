@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "a212e8bac509f08be45b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "695288d0712b3736619a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -2398,6 +2398,34 @@ module.exports = { debugTool: debugTool };
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _PixelLine = __webpack_require__(346);
+
+var _PixelLine2 = _interopRequireDefault(_PixelLine);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (_ref) {
+  var className = _ref.className,
+      style = _ref.style;
+
+  return _react2.default.createElement('div', { className: [_PixelLine2.default.line, className].join(" "), style: style });
+};
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -2451,33 +2479,6 @@ var invariant = function(condition, format, a, b, c, d, e, f) {
 module.exports = invariant;
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
-
-/***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(2);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _PixelLine = __webpack_require__(346);
-
-var _PixelLine2 = _interopRequireDefault(_PixelLine);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function (_ref) {
-  var style = _ref.style;
-
-  return _react2.default.createElement('div', { className: _PixelLine2.default.line, style: style });
-};
 
 /***/ }),
 /* 16 */
@@ -9141,7 +9142,7 @@ exports.default = createTransitionManager;
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_warning__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
@@ -9484,7 +9485,7 @@ exports = module.exports = __webpack_require__(6)(false);
 
 
 // module
-exports.push([module.i, ".app-components-PixelLine__line--3BQjZ {\n  z-index: 100;\n  height: 1px;\n  position: absolute;\n  width: 100%;\n  background-color: currentColor;\n}\n", ""]);
+exports.push([module.i, ".app-components-PixelLine__line--3BQjZ {\n  z-index: 100;\n  height: 1px;\n  width: 100%;\n  background-color: currentColor;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -9531,7 +9532,7 @@ exports = module.exports = __webpack_require__(6)(false);
 
 
 // module
-exports.push([module.i, ".app-components-AppFeatures__featureContainer--1K_fC {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-items: flex-start;\n}\n\n@media (min-width: 1280px) {\n  .app-components-AppFeatures__featureContainer--1K_fC {\n    flex-direction: row;\n  }\n}\n", ""]);
+exports.push([module.i, ".app-components-AppFeatures__featureContainer--1K_fC {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-self: stretch;\n}\n\n@media (min-width: 1280px) {\n  .app-components-AppFeatures__featureContainer--1K_fC {\n    flex-direction: row;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -9547,7 +9548,7 @@ exports = module.exports = __webpack_require__(6)(false);
 
 
 // module
-exports.push([module.i, ".app-components-AppFeature__feature--2ayu0 {\n  color: #222;\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 40px;\n  flex-shrink: 0;\n  flex-grow: 1;\n}\n\n.app-components-AppFeature__title--3kzAe {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n\n.app-components-AppFeature__titleImage--2CCSJ {\n  width: 30px;\n}\n\n.app-components-AppFeature__titleText--3qAyz {\n  display: block;\n  font-weight: 200;\n  font-size: 36px;\n  margin-left: 15px;\n}\n\n@media (min-width: 576px) {\n  .app-components-AppFeature__titleText--3qAyz {\n    font-size: 50px;\n  }\n\n  .app-components-AppFeature__titleImage--2CCSJ {\n    width: 42px;\n  }\n}\n\n.app-components-AppFeature__details--1pSik {\n  margin-top: 12px;\n}\n\n.app-components-AppFeature__text--niIPN {\n  font-size: 24px;\n  opacity: 0.8;\n}\n\n.app-components-AppFeature__text--niIPN:visited {\n  color: inherit;\n}\n\n@media (min-width: 1280px) {\n  .app-components-AppFeature__feature--2ayu0 {\n    flex-basis: 25%;\n    align-items: center;\n    text-align: center;\n    margin: 0 20px 40px;\n  }\n\n  .app-components-AppFeature__details--1pSik {\n    margin-left: 20px;\n  }\n}\n", ""]);
+exports.push([module.i, ".app-components-AppFeature__feature--2ayu0 {\n  color: #222;\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 30px;\n  flex-shrink: 0;\n  flex-grow: 1;\n  align-items: center;\n  position: relative;\n}\n\n.app-components-AppFeature__title--3kzAe {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n\n.app-components-AppFeature__titleImage--2CCSJ {\n  width: 30px;\n}\n\n.app-components-AppFeature__titleText--3qAyz {\n  display: block;\n  font-weight: 200;\n  font-size: 36px;\n  margin-left: 15px;\n}\n\n@media (min-width: 576px) {\n  .app-components-AppFeature__titleText--3qAyz {\n    font-size: 50px;\n  }\n\n  .app-components-AppFeature__titleImage--2CCSJ {\n    width: 42px;\n  }\n}\n\n.app-components-AppFeature__details--1pSik {\n  margin-top: 12px;\n  text-align: center;\n}\n\n.app-components-AppFeature__text--niIPN {\n  font-size: 24px;\n}\n\n.app-components-AppFeature__text--niIPN:visited {\n  color: inherit;\n}\n\n.app-components-AppFeature__featureLine--2SRaZ {\n  opacity: 0.2;\n  margin-top: 30px;\n  width: 60%;\n  max-width: 180px;\n}\n\n@media (min-width: 1280px) {\n  .app-components-AppFeature__feature--2ayu0 {\n    flex-basis: 25%;\n    margin: 0 20px 40px;\n  }\n\n  .app-components-AppFeature__details--1pSik {\n    margin-left: 20px;\n  }\n\n  .app-components-AppFeature__featureLine--2SRaZ {\n    display: none;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -9556,7 +9557,8 @@ exports.locals = {
 	"titleImage": "app-components-AppFeature__titleImage--2CCSJ",
 	"titleText": "app-components-AppFeature__titleText--3qAyz",
 	"details": "app-components-AppFeature__details--1pSik",
-	"text": "app-components-AppFeature__text--niIPN"
+	"text": "app-components-AppFeature__text--niIPN",
+	"featureLine": "app-components-AppFeature__featureLine--2SRaZ"
 };
 
 /***/ }),
@@ -14444,7 +14446,7 @@ var isExtraneousPopstateEvent = exports.isExtraneousPopstateEvent = function isE
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_invariant__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_invariant__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_invariant__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -14563,7 +14565,7 @@ Link.contextTypes = {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_warning__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
@@ -39149,7 +39151,7 @@ var _warning = __webpack_require__(11);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _invariant = __webpack_require__(14);
+var _invariant = __webpack_require__(15);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -40181,7 +40183,7 @@ var _warning = __webpack_require__(11);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _invariant = __webpack_require__(14);
+var _invariant = __webpack_require__(15);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -41292,7 +41294,7 @@ module.exports = Array.isArray || function (arr) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_invariant__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_invariant__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_invariant__);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -41396,7 +41398,7 @@ Prompt.contextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_warning__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_warning__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history__ = __webpack_require__(330);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -41527,7 +41529,7 @@ Redirect.contextTypes = {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_warning__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PathUtils__ = __webpack_require__(37);
@@ -41831,7 +41833,7 @@ var createBrowserHistory = function createBrowserHistory() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_warning__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PathUtils__ = __webpack_require__(37);
@@ -42331,7 +42333,7 @@ var createMemoryHistory = function createMemoryHistory() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_warning__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
@@ -42529,7 +42531,7 @@ StaticRouter.childContextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_warning__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_warning__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__matchPath__ = __webpack_require__(80);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -42896,7 +42898,7 @@ var _Home = __webpack_require__(345);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _PixelLine = __webpack_require__(15);
+var _PixelLine = __webpack_require__(14);
 
 var _PixelLine2 = _interopRequireDefault(_PixelLine);
 
@@ -42906,7 +42908,7 @@ exports.default = function () {
   return _react2.default.createElement(
     'div',
     { className: _Home2.default.home },
-    _react2.default.createElement(_PixelLine2.default, { style: { top: 0, backgroundColor: "rgba(0,0,0,0.15)" } }),
+    _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute", backgroundColor: "rgba(0,0,0,0.15)" } }),
     _react2.default.createElement(
       'div',
       { className: _Home2.default.contentContainer },
@@ -42932,7 +42934,7 @@ exports.default = function () {
           } })
       )
     ),
-    _react2.default.createElement(_PixelLine2.default, { style: { bottom: 0, backgroundColor: "rgba(0,0,0,0.15)" } }),
+    _react2.default.createElement(_PixelLine2.default, { style: { bottom: 0, position: "absolute", backgroundColor: "rgba(0,0,0,0.15)" } }),
     _react2.default.createElement(
       'span',
       { className: _Home2.default.callout },
@@ -43039,7 +43041,7 @@ var _reactHelmet = __webpack_require__(30);
 
 var _reactHelmet2 = _interopRequireDefault(_reactHelmet);
 
-var _PixelLine = __webpack_require__(15);
+var _PixelLine = __webpack_require__(14);
 
 var _PixelLine2 = _interopRequireDefault(_PixelLine);
 
@@ -43111,7 +43113,7 @@ exports.default = function () {
         _react2.default.createElement(
           'div',
           { style: { position: "relative" } },
-          _react2.default.createElement(_PixelLine2.default, { style: { top: 0 } }),
+          _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute" } }),
           _react2.default.createElement(_Faq2.default, { faq: faq, title: 'CastSync', style: { color: "#333" } })
         )
       ),
@@ -43124,7 +43126,7 @@ exports.default = function () {
           _react2.default.createElement(
             'div',
             { className: _CastSync2.default.hero, style: { backgroundImage: backgroundImage, backgroundRepeat: "repeat" } },
-            _react2.default.createElement(_PixelLine2.default, { style: { top: 0, backgroundColor: "rgba(0,0,0,0.15)" } }),
+            _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute", backgroundColor: "rgba(0,0,0,0.15)" } }),
             _react2.default.createElement(
               'h1',
               null,
@@ -43145,7 +43147,7 @@ exports.default = function () {
               _react2.default.createElement('img', { className: _CastSync2.default.slice_right, src: __webpack_require__(89) }),
               _react2.default.createElement('img', { className: _CastSync2.default.end_right, src: __webpack_require__(162) })
             ),
-            _react2.default.createElement(_PixelLine2.default, { style: { bottom: 0, backgroundColor: "rgba(0,0,0,0.15)" } })
+            _react2.default.createElement(_PixelLine2.default, { style: { bottom: 0, position: "absolute", backgroundColor: "rgba(0,0,0,0.15)" } })
           ),
           _react2.default.createElement(
             'div',
@@ -43249,6 +43251,10 @@ var _reactInlinesvg = __webpack_require__(352);
 
 var _reactInlinesvg2 = _interopRequireDefault(_reactInlinesvg);
 
+var _PixelLine = __webpack_require__(14);
+
+var _PixelLine2 = _interopRequireDefault(_PixelLine);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = function (_ref) {
@@ -43291,7 +43297,8 @@ exports.default = function (_ref) {
       'div',
       { className: _AppFeature2.default.details },
       textElement
-    )
+    ),
+    _react2.default.createElement(_PixelLine2.default, { className: _AppFeature2.default.featureLine })
   );
 };
 
@@ -47305,7 +47312,7 @@ var _AppStoreDownload = __webpack_require__(53);
 
 var _AppStoreDownload2 = _interopRequireDefault(_AppStoreDownload);
 
-var _PixelLine = __webpack_require__(15);
+var _PixelLine = __webpack_require__(14);
 
 var _PixelLine2 = _interopRequireDefault(_PixelLine);
 
@@ -47383,7 +47390,7 @@ exports.default = function () {
         _react2.default.createElement(
           'div',
           { style: { position: "relative" } },
-          _react2.default.createElement(_PixelLine2.default, { style: { top: 0 } }),
+          _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute" } }),
           _react2.default.createElement(_Faq2.default, { faq: faq, title: 'Master Control', style: { color: "#FFF" } })
         )
       ),
@@ -47396,7 +47403,7 @@ exports.default = function () {
           _react2.default.createElement(
             'div',
             { className: _MasterControl2.default.hero, style: { backgroundImage: backgroundImage, backgroundRepeat: "repeat" } },
-            _react2.default.createElement(_PixelLine2.default, { style: { top: 0, backgroundColor: "rgba(255,255,255,0.15)" } }),
+            _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute", backgroundColor: "rgba(255,255,255,0.15)" } }),
             _react2.default.createElement(
               'h1',
               null,
@@ -47421,7 +47428,7 @@ exports.default = function () {
               _react2.default.createElement(_AppStoreDownload2.default, { className: _MasterControl2.default.download_wide, imageClassName: _MasterControl2.default.downloadImage, appID: appID }),
               _react2.default.createElement('div', { className: _MasterControl2.default.spacer })
             ),
-            _react2.default.createElement(_PixelLine2.default, { style: { bottom: 0, backgroundColor: "rgba(0,0,0,0.15)" } })
+            _react2.default.createElement(_PixelLine2.default, { style: { bottom: 0, position: "absolute", backgroundColor: "rgba(0,0,0,0.15)" } })
           ),
           _react2.default.createElement(
             'div',
@@ -47514,7 +47521,7 @@ var _reactHelmet = __webpack_require__(30);
 
 var _reactHelmet2 = _interopRequireDefault(_reactHelmet);
 
-var _PixelLine = __webpack_require__(15);
+var _PixelLine = __webpack_require__(14);
 
 var _PixelLine2 = _interopRequireDefault(_PixelLine);
 
@@ -47598,7 +47605,7 @@ exports.default = function () {
         _react2.default.createElement(
           'div',
           { style: { position: "relative" } },
-          _react2.default.createElement(_PixelLine2.default, { style: { top: 0 } }),
+          _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute" } }),
           _react2.default.createElement(_Faq2.default, { faq: faq, title: 'Master Caster', style: { color: "#333" } })
         )
       ),
@@ -47611,7 +47618,7 @@ exports.default = function () {
           _react2.default.createElement(
             'div',
             { className: _MasterCaster2.default.hero, style: { backgroundImage: backgroundImage, backgroundRepeat: "repeat" } },
-            _react2.default.createElement(_PixelLine2.default, { style: { top: 0, backgroundColor: "rgba(0,0,0,0.15)" } }),
+            _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute", backgroundColor: "rgba(0,0,0,0.15)" } }),
             _react2.default.createElement(
               'h1',
               null,
@@ -47637,7 +47644,7 @@ exports.default = function () {
               _react2.default.createElement(_AppStoreDownload2.default, { className: _MasterCaster2.default.download_wide, imageClassName: _MasterCaster2.default.downloadImage, appID: appID }),
               _react2.default.createElement('div', { className: _MasterCaster2.default.spacer })
             ),
-            _react2.default.createElement(_PixelLine2.default, { style: { bottom: 0, backgroundColor: "rgba(0,0,0,0.15)" } })
+            _react2.default.createElement(_PixelLine2.default, { style: { bottom: 0, position: "absolute", backgroundColor: "rgba(0,0,0,0.15)" } })
           ),
           _react2.default.createElement(
             'div',
@@ -47722,7 +47729,7 @@ var _AppFeatures = __webpack_require__(38);
 
 var _AppFeatures2 = _interopRequireDefault(_AppFeatures);
 
-var _PixelLine = __webpack_require__(15);
+var _PixelLine = __webpack_require__(14);
 
 var _PixelLine2 = _interopRequireDefault(_PixelLine);
 
@@ -47804,7 +47811,7 @@ exports.default = function () {
         _react2.default.createElement(
           'div',
           { style: { position: "relative" } },
-          _react2.default.createElement(_PixelLine2.default, { style: { top: 0 } }),
+          _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute" } }),
           _react2.default.createElement(_Faq2.default, { faq: faq, title: 'QuickTwitch', style: { color: "#FFF" } })
         )
       ),
@@ -47817,7 +47824,7 @@ exports.default = function () {
           _react2.default.createElement(
             'div',
             { className: _QuickTwitch2.default.hero, style: { backgroundImage: backgroundImage, backgroundRepeat: "repeat" } },
-            _react2.default.createElement(_PixelLine2.default, { style: { top: 0, backgroundColor: "rgba(255,255,255,0.15)" } }),
+            _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute", backgroundColor: "rgba(255,255,255,0.15)" } }),
             _react2.default.createElement(
               'h1',
               null,
@@ -47925,7 +47932,7 @@ var _AppStoreDownload = __webpack_require__(53);
 
 var _AppStoreDownload2 = _interopRequireDefault(_AppStoreDownload);
 
-var _PixelLine = __webpack_require__(15);
+var _PixelLine = __webpack_require__(14);
 
 var _PixelLine2 = _interopRequireDefault(_PixelLine);
 
@@ -48009,7 +48016,7 @@ exports.default = function () {
         _react2.default.createElement(
           'div',
           { style: { position: "relative" } },
-          _react2.default.createElement(_PixelLine2.default, { style: { top: 0 } }),
+          _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute" } }),
           _react2.default.createElement(_Faq2.default, { faq: faq, title: 'Pod2Watch', style: { color: "#FFF" } })
         )
       ),
@@ -48022,7 +48029,7 @@ exports.default = function () {
           _react2.default.createElement(
             'div',
             { className: _Pod2Watch2.default.hero, style: { backgroundImage: backgroundImage, backgroundRepeat: "repeat" } },
-            _react2.default.createElement(_PixelLine2.default, { style: { top: 0, backgroundColor: "rgba(255,255,255,0.15)" } }),
+            _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute", backgroundColor: "rgba(255,255,255,0.15)" } }),
             _react2.default.createElement(
               'h1',
               null,
@@ -48048,7 +48055,7 @@ exports.default = function () {
               _react2.default.createElement(_AppStoreDownload2.default, { className: _Pod2Watch2.default.download_wide, imageClassName: _Pod2Watch2.default.downloadImage, appID: appID }),
               _react2.default.createElement('div', { className: _Pod2Watch2.default.spacer })
             ),
-            _react2.default.createElement(_PixelLine2.default, { style: { bottom: 0, backgroundColor: "rgba(0,0,0,0.15)" } })
+            _react2.default.createElement(_PixelLine2.default, { style: { bottom: 0, position: "absolute", backgroundColor: "rgba(0,0,0,0.15)" } })
           ),
           _react2.default.createElement(
             'div',
@@ -48135,7 +48142,7 @@ var _reactScroll = __webpack_require__(177);
 
 var _reactScroll2 = _interopRequireDefault(_reactScroll);
 
-var _PixelLine = __webpack_require__(15);
+var _PixelLine = __webpack_require__(14);
 
 var _PixelLine2 = _interopRequireDefault(_PixelLine);
 
@@ -48160,7 +48167,7 @@ exports.default = function (_ref) {
   return _react2.default.createElement(
     'div',
     { className: _Footer2.default.footer, style: style },
-    _react2.default.createElement(_PixelLine2.default, { style: { top: 0 } }),
+    _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute" } }),
     _react2.default.createElement(
       'div',
       { className: _Footer2.default.bottomLinks },
@@ -48744,7 +48751,7 @@ var _Face = __webpack_require__(469);
 
 var _Face2 = _interopRequireDefault(_Face);
 
-var _PixelLine = __webpack_require__(15);
+var _PixelLine = __webpack_require__(14);
 
 var _PixelLine2 = _interopRequireDefault(_PixelLine);
 
@@ -48756,7 +48763,7 @@ exports.default = function () {
   return _react2.default.createElement(
     'div',
     { className: _Contact2.default.about },
-    _react2.default.createElement(_PixelLine2.default, { style: { top: 0, backgroundColor: "rgba(0,0,0,0.15)" } }),
+    _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute", backgroundColor: "rgba(0,0,0,0.15)" } }),
     _react2.default.createElement(
       'div',
       { className: _Contact2.default.description },
@@ -49141,7 +49148,7 @@ var _Email = __webpack_require__(186);
 
 var _Email2 = _interopRequireDefault(_Email);
 
-var _PixelLine = __webpack_require__(15);
+var _PixelLine = __webpack_require__(14);
 
 var _PixelLine2 = _interopRequireDefault(_PixelLine);
 
@@ -49157,7 +49164,7 @@ exports.default = function () {
   return _react2.default.createElement(
     'div',
     { className: _Support2.default.support },
-    _react2.default.createElement(_PixelLine2.default, { style: { top: 0, backgroundColor: "rgba(0,0,0,0.15)" } }),
+    _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute", backgroundColor: "rgba(0,0,0,0.15)" } }),
     _react2.default.createElement(
       'h1',
       { className: _Support2.default.title },
@@ -49369,7 +49376,7 @@ var _projects = __webpack_require__(181);
 
 var _projects2 = _interopRequireDefault(_projects);
 
-var _PixelLine = __webpack_require__(15);
+var _PixelLine = __webpack_require__(14);
 
 var _PixelLine2 = _interopRequireDefault(_PixelLine);
 
@@ -49964,7 +49971,7 @@ var _reactHelmet = __webpack_require__(30);
 
 var _reactHelmet2 = _interopRequireDefault(_reactHelmet);
 
-var _PixelLine = __webpack_require__(15);
+var _PixelLine = __webpack_require__(14);
 
 var _PixelLine2 = _interopRequireDefault(_PixelLine);
 
@@ -49974,7 +49981,7 @@ exports.default = function () {
   return _react2.default.createElement(
     'div',
     { className: _NotFound2.default.container },
-    _react2.default.createElement(_PixelLine2.default, { style: { top: 0, backgroundColor: "rgba(0,0,0,0.15)" } }),
+    _react2.default.createElement(_PixelLine2.default, { style: { top: 0, position: "absolute", backgroundColor: "rgba(0,0,0,0.15)" } }),
     _react2.default.createElement(
       _reactHelmet2.default,
       null,
